@@ -50,7 +50,6 @@
     "moment": "2.13.0",
     "morgan": "1.7.0",
     "multer": "1.1.0",
-    "ncp": "^2.0.0",
     "netjet": "1.1.0",
     "node-uuid": "1.4.7",
     "nodemailer": "0.7.1",
@@ -104,7 +103,7 @@
   },
   "scripts": {
     "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
-    "postinstall": "ncp node_modules/casper content/themes/casper && ncp node_modules/ghost-cloudinary-store content/storage/ghost-cloudinary-store",
+    "postinstall": "cp -R node_modules/casper/* content/themes/casper && cp -R node_modules/ghost-cloudinary-store/* content/storage/ghost-cloudinary-store",
     "start": "node index",
     "test": "grunt validate --verbose"
   },
