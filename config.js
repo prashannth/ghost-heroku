@@ -12,7 +12,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://prashannth.herokuapp.com',
-        mail: {},
+        mail: {
+            transport: 'SMTP',
+                options: {
+                    service: 'Mailgun',
+                    auth: {
+                        user: process.env.MAIL_USER
+                        pass: process.env.MAIL_PASS
+                    }
+                }
+        },
         database: {
           client: 'postgres',
           connection: {
