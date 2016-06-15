@@ -102,7 +102,7 @@
   },
   "scripts": {
     "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
-    "start": "npm install --production && node index",
+    "start": "node index",
     "test": "grunt validate --verbose"
   },
   "greenkeeper": {
