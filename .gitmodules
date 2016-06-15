@@ -1,0 +1,3 @@
+[submodule "content/themes/ghost-personal-blog-theme"]
+path = content/themes/ghost-personal-blog-theme
+url = https://github.com/prashannth/ghost-personal-blog-theme
