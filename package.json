@@ -37,7 +37,6 @@
     "express-hbs": "1.0.1",
     "extract-zip": "1.5.0",
     "fs-extra": "0.30.0",
-    "ghost-cloudinary-store": "sethbrasile/ghost-cloudinary-store",
     "ghost-gql": "0.0.4",
     "glob": "5.0.15",
     "html-to-text": "2.1.0",
@@ -103,7 +102,6 @@
   },
   "scripts": {
     "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
-    "postinstall": "cp -R node_modules/Casper content/themes/casper && cp -R node_modules/ghost-cloudinary-store content/storage/ghost-cloudinary-store",
     "start": "node index",
     "test": "grunt validate --verbose"
   },

@@ -1,0 +1,9 @@
+[submodule "content/themes/casper"]
+	path = content/themes/casper
+	url = https://github.com/TryGhost/Casper.git
+[submodule "core/client"]
+	path = core/client
+	url = https://github.com/TryGhost/Ghost-Admin.git
+[submodule "content/storage/ghost-cloudinary-store"]
+	path = content/storage/ghost-cloudinary-store
+	url = https://github.com/sethbrasile/ghost-cloudinary-store
