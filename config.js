@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://prashannth.herokuapp.com',
+        url: 'http://prashannth.com',
         mail: {
             transport: 'SMTP',
                 options: {
