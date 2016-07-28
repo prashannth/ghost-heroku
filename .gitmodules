@@ -4,3 +4,6 @@ url = https://github.com/prashannth/ghost-personal-blog-theme
 [submodule "content/storage/ghost-cloudinary-store"]
 path = content/storage/ghost-cloudinary-store
 url = https://github.com/sethbrasile/ghost-cloudinary-store
+[submodule "content/themes/ghost-magazine-blog-theme"]
+path = content/themes/ghost-magazine-blog-theme
+url = https://github.com/prashannth/ghost-magazine-blog-theme
