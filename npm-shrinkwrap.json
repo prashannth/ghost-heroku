@@ -49,8 +49,8 @@
     },
     "amperize": {
       "version": "0.3.0",
-      "from": "https://github.com/AileenCGN/amperize/tarball/fixed-layout-for-small-images",
-      "resolved": "https://github.com/AileenCGN/amperize/tarball/fixed-layout-for-small-images"
+      "from": "amperize@>=0.3.0",
+      "resolved": "https://registry.npmjs.org/amperize/-/amperize-0.3.0.tgz"
     },
     "ansi": {
       "version": "0.3.1",
